@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">App_abnumber</string>
+    <string name="title">任意4位數</string>
+    <string name="input_message">輸入數值</string>
+    <string name="submit">傳送</string>
+</resources>
