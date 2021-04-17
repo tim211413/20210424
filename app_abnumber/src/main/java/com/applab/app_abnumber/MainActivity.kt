@@ -27,15 +27,14 @@ class MainActivity : AppCompatActivity() {
 
 
         Log.d(TAG, Arrays.toString(result))
-        //val ans = luckyNumber.ans
         Log.d(TAG, result.toString())
-        if (result[0] == 0) {
+        if (result[0] == 4) {
             // 通知 AlertDialog
             AlertDialog.Builder(this)
                 .setTitle(R.string.result)
                 .setTitle(R.string.bingo)
-                .setMessage(R.string.listener)
-                .setPositiveButton(R.string.ok, listener)
+                .setPositiveButton(R.string.replay, listener)
+                .setNegativeButton(R.string.exit, listener)
                 .show()
         }
 
