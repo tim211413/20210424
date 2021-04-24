@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">App_Exchange</string>
+    <string name="input_twd">輸入台幣</string>
+    <string name="exchange">換匯</string>
+    <string name="result_amount">換匯完畢</string>
+    <string name="result_time">時間</string>
+</resources>

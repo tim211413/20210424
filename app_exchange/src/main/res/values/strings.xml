@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">App_Exchange</string>
+    <string name="input_twd">input_TWD</string>
+    <string name="exchange">exChange</string>
+    <string name="result_amount">result_Amount</string>
+    <string name="result_time">result_Time</string>
+</resources>
