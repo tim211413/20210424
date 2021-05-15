@@ -16,6 +16,7 @@ import android.widget.ArrayAdapter
 import android.widget.TextView
 import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
+import androidx.navigation.ui.onNavDestinationSelected
 import kotlinx.android.synthetic.main.content_main.*
 
 // 包含學生姓名, 考試分數
@@ -121,15 +122,4 @@ class MainActivity : AppCompatActivity() {
         return true
     }
 
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        return when (item.itemId) {
-            R.id.action_exit -> true
-            R.id.action_sum -> true
-            R.id.action_avg -> true
-            else -> super.onOptionsItemSelected(item)
-        }
-    }
 }
